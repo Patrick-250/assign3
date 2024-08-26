@@ -1,0 +1,32 @@
+.main {
+    width: 90%;
+    height: 80vh;
+    background-color: rgb(171, 171, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+    margin-left: 0px
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+th,
+td {
+    padding: 15px;
+}
